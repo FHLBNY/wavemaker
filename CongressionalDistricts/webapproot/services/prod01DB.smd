@@ -1,0 +1,18 @@
+{
+	"methods": [{
+		"name": "getAlmanacCongressAll",
+		"operationType": "hqlquery",
+		"parameters": null,
+		"returnType": "[com.fhlbny.prod01db.data.AlmanacCongress]"
+	}, {
+		"name": "getAlmanacCongressById",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "id",
+			"type": "java.lang.Integer"
+		}],
+		"returnType": "com.fhlbny.prod01db.data.AlmanacCongress"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "prod01DB.json"
+}
